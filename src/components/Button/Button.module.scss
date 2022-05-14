@@ -1,0 +1,25 @@
+.buttonBody{
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(88, 88, 88);
+  vertical-align: center;
+  text-align: center;
+  cursor: pointer;
+  font-size: 50px;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s ease-in-out;
+}
+.buttonBody:last-child{
+  background-color: rgb(104, 104, 104);
+}
+.buttonBody:hover{
+  background-color: rgb(78, 78, 78);
+}
+.buttonBody:active{
+  transition: 0.05s;
+  padding: 35px 30px 25px 30px;
+  background-color: rgb(68, 68, 68);
+}
